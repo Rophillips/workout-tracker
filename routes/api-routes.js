@@ -3,13 +3,14 @@ let db = require("../models");
 
 router.get("/api/workouts", (req, res) => {
     db.Workout.aggregate([
-        {
+        {   
             $addFields: {
                 totalDuration: {
-                    $sum: "$exercises.duration"
+                    $sum: "$exercises.duration",
+                    //$limit: 7
                 }
             }
-        }
+        } 
     ]).then(dbWorkout => res.json(dbWorkout))
         .catch(err => {res.status(400).json (err)});
 });
@@ -35,6 +36,7 @@ router.post("/api/workouts", ({ body }, res) => {
 router.get("/api/workouts/range", (req, res) => {
     
     db.Workout.find({})
+    .limit(7)
     .populate("exercises")
     .then(dbWorkout => {
         res.json(dbWorkout);
