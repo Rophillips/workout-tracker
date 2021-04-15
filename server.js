@@ -22,10 +22,23 @@ app.use(require("./routes/api-routes.js"));
 //connecting to mongodb atlas
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/MongoDB", {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
+    // useUnifiedTopology: true,
+    // useCreateIndex: true,
     useFindAndModify: false
 });
+
+// if(process.env.MONGODB_URI.length > 0) {
+//     mongoose.connect(process.env.MONGODB_URI, {
+//       useNewUrlParser: true,
+//       useFindAndModify: false
+//     });
+//   }
+//   else{
+//     mongoose.connect("mongodb://localhost/workout", {
+//       useNewUrlParser: true,
+//       useFindAndModify: false
+//     })
+// }
 
 app.listen(PORT, () => {
     console.log(`App running on port http://localhost:${PORT}`);
