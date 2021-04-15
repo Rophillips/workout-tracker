@@ -20,8 +20,10 @@ app.use(require("./routes/api-routes.js"));
 
 
 //connecting to mongodb atlas
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/MongoDB", {
     useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
     useFindAndModify: false
 });
 
