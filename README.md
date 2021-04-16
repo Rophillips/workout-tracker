@@ -6,13 +6,13 @@
 
 ## Screenshots
 
-    Tracker Page
+   Tracker Page
     
     ![image](https://user-images.githubusercontent.com/74886597/115078067-0e47c180-9ecd-11eb-95c9-55d69a636a7c.png)
   
-
-
-    Dashboard Page
+   Dashboard Page
+   
+    ![image](https://user-images.githubusercontent.com/74886597/115079508-47813100-9ecf-11eb-90ed-37e1c9a88946.png)
 
     
 
