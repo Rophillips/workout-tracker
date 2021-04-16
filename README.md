@@ -7,4 +7,3 @@
 ## Screenshots
 
     Main Page
-    
