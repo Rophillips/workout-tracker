@@ -6,14 +6,9 @@ A fitness app that allows the user to view, create, and track daily workouts. Th
 
 ## Screenshots
 
-    Tracker Page
+Tracker Page
 
-    Screen Shot 2021-04-16 at 8.32.54 AM
-
-
-    Dashboard Page
-
-    Screen Shot 2021-04-16 at 3.49.12 PM
+Dashboard Page
 
 ## Deployed App Link
 
