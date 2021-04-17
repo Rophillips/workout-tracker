@@ -17,6 +17,6 @@ A fitness app that allows the user to view, create, and track daily workouts. Th
 
 ## Deployed App Link
 
-    https://boiling-mesa-18005.herokuapp.com/
+[Link to Deployed App](https://boiling-mesa-18005.herokuapp.com/)
 
     
