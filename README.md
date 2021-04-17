@@ -9,7 +9,7 @@ A fitness app that allows the user to view, create, and track daily workouts. Th
 Tracker Page
 ![image](https://user-images.githubusercontent.com/74886597/115123283-4234ec80-9f8a-11eb-94ee-a469de115929.png)
 Dashboard Page
-
+![image](https://user-images.githubusercontent.com/74886597/115123296-52e56280-9f8a-11eb-9649-9265180b801e.png)
 ## Deployed App Link
 
 [Link to Deployed App](https://boiling-mesa-18005.herokuapp.com/)
