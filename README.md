@@ -7,7 +7,7 @@ A fitness app that allows the user to view, create, and track daily workouts. Th
 ## Screenshots
 
 Tracker Page
-
+![image](https://user-images.githubusercontent.com/74886597/115123283-4234ec80-9f8a-11eb-94ee-a469de115929.png)
 Dashboard Page
 
 ## Deployed App Link
